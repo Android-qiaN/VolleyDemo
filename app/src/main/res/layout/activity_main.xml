@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myvolley.MainActivity">
+
+    <Button
+        android:id="@+id/btn_string_request_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Get方式请求数据返回StringRequest对象"/>
+
+    <Button
+        android:id="@+id/btn_jsonobject_request_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Get方式请求数据返回JsonObjectRequest对象"/>
+
+    <Button
+        android:id="@+id/btn_string_request_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Post方式请求数据返回StringRequest对象"/>
+
+    <Button
+        android:id="@+id/btn_jsonobject_request_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Post方式请求数据返回JsonObjectRequest对象"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
